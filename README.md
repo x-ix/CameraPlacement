@@ -49,11 +49,11 @@ Outputs:
 
         "Optimal Vertical lens Angle (M)" #Vertical angle, considerations outlined in introduction
 
-        "Optimal distance from end of surface (M)" #This is the distance the centre of your camera lens
-                                                   #should be placed away from the closest edge of the
-                                                   #depth area you are capturing. If negative, your
-                                                   #camera needs to be placed past that edge by
-                                                   #the calculated distance
+        "Optimal distance from end of surface (M)" #This is the distance the centre of your lens
+                                                   #should be placed away from the closest edge of
+                                                   #the depth area you are capturing. If negative,
+                                                   #your camera needs to be placed past that edge
+                                                   #by the calculated distance
 
         plt #A matplotlib plot of how the cameras should be placed to better illustrate the two values
             #explained above
