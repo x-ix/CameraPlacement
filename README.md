@@ -55,8 +55,7 @@ Outputs:
                                                    #your camera needs to be placed past that edge
                                                    #by the calculated distance
 
-        plt #A matplotlib plot of how the cameras should be placed to better illustrate the two values
-            #explained above
+        plt #A matplotlib plot of how the cameras should be placed for clarity
 ```
 
 
