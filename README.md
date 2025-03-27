@@ -28,17 +28,17 @@ Inputs:
     The script will prompt you to input the following:
     
         "Enter depth of surface to be captured in M:" #The script calculates positional and angular
-                                                      #values based off of the depth or length of the
-                                                      #surface you intend to capture
+                                                      #values based off of the depth or length of
+                                                      #the surface you intend to capture
 
-        "Enter height of surface from ground level in M:" #Relates to how high the surface you are
-                                                          #capturing is in relation to the area you
-                                                          #would like to have within your camera lens
+        "Enter height of surface from ground level in M:" #How high the surface you are capturing
+                                                          #is relative to the area you would like
+                                                          #to have within your camera frame/lens
 
         "Enter camera height in M:" #To account for items such as tripods, stands and different
                                     #lengths of camera lenses (as some of them can be quite long)
 
-        "Enter Camera angle in degrees relative to the ground (negative angle if looking downwards):"
+        "Enter Camera angle in degrees relative to the ground (negative if angled downwards):"
         #The angle the centre of your camera is at based on the direction you are capturing in,
         #relative to the ground being 0° in said direction. If your camera is above its subject,
         #provide the angle it is point down by as a negative value as its pointing down
