@@ -86,7 +86,7 @@ def main():
     if height == camera_height:
         print("ERROR: Camera cannot be inline with projected surface, please alter values accordingly")
         sys.exit()
-    camera_angle = int(input("Enter Camera angle in degrees relative to the ground (negative angle if looking downwards): "))
+    camera_angle = int(input("Enter Camera angle in degrees relative to the ground (negative if angled downwards): "))
 
     #Finds angle, adjusts things if camera is looking down from above and outputs results
     lens_angle = find_lens_angle(desired_depth, height - camera_height, camera_angle)
