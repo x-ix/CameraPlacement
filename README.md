@@ -27,37 +27,32 @@ Usage:
 Inputs:
     The script will prompt you to input the following:
     
-        "Enter depth of surface to be captured in M:" #The script calculates positional and angular values
-                                                      #based off of the depth or length of the surface you
-                                                      #intend to capture
+        "Enter depth of surface to be captured in M:" #The script calculates positional and angular
+                                                      #values based off of the depth or length of the
+                                                      #surface you intend to capture
 
-        "Enter height of surface from ground level in M:" #Simply relates to how high the surface you are
-                                                          #capturing is in relation to the area you would
-                                                          #like to have within your camera frame/lens
+        "Enter height of surface from ground level in M:" #Relates to how high the surface you are
+                                                          #capturing is in relation to the area you
+                                                          #would like to have within your camera lens
 
-        "Enter camera height in M:" #Intended to account for items such as tripods, stands and different
+        "Enter camera height in M:" #To account for items such as tripods, stands and different
                                     #lengths of camera lenses (as some of them can be quite long)
 
         "Enter Camera angle in degrees relative to the ground (negative angle if looking downwards):"
-        #This would be the angle the centre of your camera is at from the direction you are capturing in,
-        #relative to the ground being 0° in said direction. Due to the angle being relative to the ground
-        #if your camera is above its subject, provide the angle it is point down by as a negative value
+        #The angle the centre of your camera is at based on the direction you are capturing in,
+        #relative to the ground being 0° in said direction. If your camera is above its subject,
+        #provide the angle it is point down by as a negative value as its pointing down
 
 
 Outputs:
     The script will provide you with the following:
 
-        "Optimal Vertical lens Angle (M)" #The script outputs vertical lens angle. This is important as
-                                          #most standard lenses tend to be advertised based on their
-                                          #horizontal lens angle. As such if you use the conversion chart
-                                          #provided in the introduction, you should be able to find the
-                                          #appropriate lens size you require, though may need to round up
-                                          #in the case of fixed length lenses.
+        "Optimal Vertical lens Angle (M)" #Vertical angle, considerations outlined in introduction
 
         "Optimal distance from end of surface (M)" #This is the distance the centre of your camera lens
                                                    #should be placed away from the closest edge of the
-                                                   #depth area you are capturing. If it is negative then
-                                                   #your camera needs to be placed past that boundary by
+                                                   #depth area you are capturing. If negative, your
+                                                   #camera needs to be placed past that edge by
                                                    #the calculated distance
 
         plt #A matplotlib plot of how the cameras should be placed to better illustrate the two values
