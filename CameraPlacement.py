@@ -3,10 +3,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 import sys
 
----------------------------
+#---------------------------
 CENTIMETRES = 100
 
----------------------------
+#---------------------------
 
 def projection_distance(height, camera_angle, lens_angle):
     source_distance = height / math.sin(math.radians(camera_angle)) #Distance for centre of lens to surface
