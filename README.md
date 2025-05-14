@@ -59,6 +59,18 @@ Outputs:
 ```
 
 
+### Visualisation
+Optimal placement and angle for Camera from below:
+
+![Screenshot 2025-03-28 005234](https://github.com/user-attachments/assets/c76a7617-e14d-430c-b1ba-0620c463ac9a)
+
+
+Optimal placement and angle for Camera from above:
+
+![Screenshot 2025-03-28 005344](https://github.com/user-attachments/assets/2aea644b-763b-46b0-9a64-9b6d7be723ea)
+
+
+
 ### Miscellaneous
 Contents of [requirements.txt](requirements.txt):
 ```
